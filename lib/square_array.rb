@@ -1,3 +1,5 @@
 def square_array(array)
-  # your code here
-end
+ new_numbers = numbers.collect{|num| num ** 2}
+  return new_numbers
+   
+end 
